@@ -8,7 +8,7 @@ $(document).ready(function() {
 	function displayAnimalGifs() {
 
 		const animal = $(this).attr('data-name');
-		const queryURL =  "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=ZkCSEeyRzv6qONfq1KlvcENHqVld8tgD&limit=10"
+		const queryURL =  "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=ZkCSEeyRzv6qONfq1KlvcENHqVld8tgD&limit=10"
 
 		//creating ajax call for specific animal button called
 		$.ajax({
